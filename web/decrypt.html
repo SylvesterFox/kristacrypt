@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type='text/javascript' src='/eel.js'></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <a href="index.html" id="clear_results">Назад</a>
+    <header class="header_decrypt">
+        <h1 class="name_page">Дешифратор файлов</h1>
+        <div class="conterner_decrypt">
+            <p class="text_info">Укажите приватный ключ private.pem</p>
+            <input type="text" name="dir_public" id="decrypt_file" placeholder="C:\private.pem" value="">
+            <p class="i_love_fox">Укажите директорию которую нужно зашифровать</p>
+            <input type="text" name="dir_file" id="decrypt_dir" placeholder="Укажите директорию которую нужно рашифровать" value="C:\user\папка_которую_нужно_рашифровать">
+            <a href="#" class="decrypt_btn" id="decrypt_start">Старт</a>
+        </div>
+        <div class="decrypt_info">
+            <div class="display_decrypt" id="dis_decrypt">
+
+            </div>
+        </div>
+    </header>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

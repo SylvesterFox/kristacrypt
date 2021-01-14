@@ -1,0 +1,199 @@
+body {
+    line-height: 1;
+    background: black;
+    color: white;
+    
+}
+
+.main_header{
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    display: block;
+}
+
+.main{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: auto;
+}
+
+.btn{
+    height: 80px;
+    width: 160px;
+    display: block;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+a:hover {
+    color: aqua;
+    border-color: aqua;
+}
+
+.name_page{
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 400px;
+    margin: 10px 40px 10px 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.header_RSA{
+    position: absolute;
+    display: block;
+    height: 220px;
+    width: 460px;
+    margin: 5px 5px 5px 5px;
+}
+
+.conterner{
+    position: absolute;
+    display: block;
+    padding: 90px 90px 90px 30px;
+    margin: 20px 40px 40px 20px;
+    width: 300px;
+    height: 70px;
+    
+}
+
+.RSAgen {
+    width: 100px;
+    height: 20px;
+    margin-left: 120px;
+}
+
+#input-box {
+    width: 350px;
+    height: 20px;
+    color: white;
+    background: black;
+}
+
+.info_key *{
+    width: 430px;
+    height: 200px;
+    max-height: 600px;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 200px;
+    border: 2px dashed white;
+    overflow: auto;
+}
+
+.crypt_btn {
+    width: 50px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#crypt_dir {
+    width: 350px;
+    height: 20px;
+    color: white;
+    background: black;
+}
+
+#crypt_file {
+    width: 350px;
+    height: 20px;
+    color: white;
+    background: black;
+}
+
+.conterner_crypt{
+    position: absolute;
+    display: block;
+    padding: 50px 90px 90px 30px;
+    margin: 20px 40px 40px 20px;
+    width: 300px;
+    height: 70px;
+    
+}
+
+.crypt_info *{
+    width: 430px;
+    height: 200px;
+    max-height: 900px;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 10px;
+    border: 2px dashed white;
+    overflow: auto;
+}
+
+.decrypt_info *{
+    width: 430px;
+    height: 200px;
+    max-height: 900px;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 10px;
+    border: 2px dashed white;
+    overflow: auto;
+}
+
+.conterner_decrypt{
+    position: absolute;
+    display: block;
+    padding: 50px 90px 90px 30px;
+    margin: 20px 40px 40px 20px;
+    width: 300px;
+    height: 70px;
+    
+}
+
+#decrypt_file {
+    width: 350px;
+    height: 20px;
+    color: white;
+    background: black;
+}
+
+#decrypt_dir {
+    width: 350px;
+    height: 20px;
+    color: white;
+    background: black;
+}
+
+.decrypt_btn {
+    width: 50px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+}

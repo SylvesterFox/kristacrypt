@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type='text/javascript' src='/eel.js'></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Crypt</title>
+</head>
+<body>
+    <a href="index.html" id="clear_results">Назад</a>
+    <header class="header_crypt">
+        <h1 class="name_page">Шифроватор файлов</h1>
+        <div class="conterner_crypt">
+            <p class="text_info">Укажите публичный ключ receiver.pem</p>
+            <input type="text" name="dir_public" id="crypt_file" placeholder="C:\receiver.pem" value="">
+            <p class="i_love_knot">Укажите директорию которую нужно зашифровать</p>
+            <input type="text" name="dir_file" id="crypt_dir" placeholder="Укажите директорию которую нужно зашифровать" value="C:\user\папка_которую_нужно_зашифровать">
+            <a href="#" class="crypt_btn" id="crypt_start">Старт</a>
+        </div>
+        <div class="crypt_info">
+            <p class="display_crypt" id="dis_crypt">
+
+            </p>
+        </div>
+    </header>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
