@@ -8,7 +8,7 @@
 - Генерировать ключи шифрования RSA
 
 # Скачать 
-[Downloads kristacrypt_beta_1701](https://github.com/SylvesterFox/kristacrypt/releases/tag/v0.1-beta1701)
+[Downloads](https://github.com/SylvesterFox/kristacrypt/releases)
 
 # Необходимые зависимости
 **Должен быть установлен google chorme для запуска GUI**
