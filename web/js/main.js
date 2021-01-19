@@ -11,6 +11,20 @@ jQuery("#generate").on('click', function() {
     key_RSA();
 });
 
+// отображение работы шифратора 
+eel.expose(display_results_crypt)
+function display_results_crypt(x) {
+    console.log(x)
+    return document.getElementById("dis_crypt").innerHTML = x;
+}
+
+eel.expose(display_results_decrypt)
+function display_results_decrypt(x) {
+    console.log(x)
+    return document.getElementById("dis_decrypt").innerHTML = x;
+}
+
+
 // отправляет запрос шифратуру 
 async function crypt_file() {
     let forlder_crypt = document.getElementById("crypt_dir").value;
@@ -19,8 +33,8 @@ async function crypt_file() {
     console.log(forlder_crypt);
     
     let start_crypt = await eel.walk(forlder_crypt, public_key)();
+    // console.log(start_crypt);
     document.getElementById("dis_crypt").innerHTML = start_crypt;
-    console.log(start_crypt);
 }
 
 jQuery("#crypt_start").on('click', function() {
@@ -35,6 +49,7 @@ async function decrypt_file() {
     console.log(forlder_decrypt);
 
     let start_decrypt = await eel.walk_decrypt(forlder_decrypt, private_key)();
+    // console.log(start_decrypt)
     document.getElementById("dis_decrypt").innerHTML = start_decrypt;
     console.log(start_decrypt)
 }
@@ -43,11 +58,3 @@ jQuery("#decrypt_start").on("click", function(){
     decrypt_file()
 });
 
-// очиска результатов
-async function clear() {
-    await eel.clear_results()
-}
-
-jQuery("#clear_results").on('click', function() {
-    clear()
-});
